@@ -159,20 +159,20 @@ export default {
     }
   }
   .point-top {
-    left: 31px;
-    top: -19px
+    left: calc(50% - 15px);
+    top: -15px
   }
   .point-right {
-    top: 31px;
-    right: -19px;
+    top: calc(50% - 15px);
+    right: -15px;
   }
   .point-bottom {
-    top: 81px;
-    left: 31px;
+    bottom: -15px;
+    left: calc(50% - 15px);
   }
   .point-left {
-    top: 31px;
-    left: -19px;
+    top: calc(50% - 15px);
+    left: -15px;
   }
 }
 .box:hover .box-delete-btn {
